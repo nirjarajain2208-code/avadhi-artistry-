@@ -1,0 +1,184 @@
+/* GENERAL */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #ffffff;
+    color: #222;
+    scroll-behavior: smooth;
+}
+
+/* NAVBAR (DARK) */
+.navbar {
+    background: #111;
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: #ffd54f !important; /* soft yellow */
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    color: #ddd !important;
+    margin-left: 18px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffd54f !important; /* yellow hover */
+}
+
+/* HERO SECTION */
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    /* subtle gradient */
+    background: linear-gradient(135deg, #fffbea, #fff3cd);
+}
+
+.hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    color: #111;
+}
+
+.hero p {
+    color: #555;
+    font-size: 1.2rem;
+}
+
+/* BUTTONS */
+.btn {
+    border-radius: 30px;
+    padding: 12px 30px;
+    transition: 0.3s ease;
+}
+
+.btn-dark {
+    background: #111;
+    border: none;
+}
+
+.btn-dark:hover {
+    background: #ffd54f;
+    color: #111;
+}
+
+/* MASTERPIECE */
+.masterpiece-section {
+    background: #fffdf5;
+    padding: 50px 0;
+}
+
+.masterpiece-section h2 {
+    color: #111;
+}
+
+/* CARDS */
+.card {
+    border: none;
+    overflow: hidden;
+    transition: 0.4s ease;
+    background: #fff;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+.vertical-img {
+    height: 400px;
+}
+
+.card:hover img {
+    transform: scale(1.08);
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+/* GALLERY */
+.gallery img {
+    transition: 0.4s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.08);
+}
+
+/* ABOUT */
+#about {
+    background: #fff8e1; /* soft warm yellow */
+}
+
+#about h4 {
+    color: #111;
+}
+
+#about p {
+    line-height: 1.7;
+}
+
+/* CONTACT */
+#contact {
+    background: #f9f9f9;
+}
+
+#contact input,
+#contact textarea {
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+    border-color: #ffd54f;
+    box-shadow: 0 0 6px rgba(255, 213, 79, 0.4);
+}
+
+/* SOCIAL LINKS */
+#contact a {
+    color: #111;
+}
+
+#contact a:hover {
+    color: #ffd54f;
+}
+
+/* FOOTER */
+footer {
+    background: #111;
+    color: #ddd;
+    padding: 25px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* FADE ANIMATION */
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.8s ease;
+}
+
+.fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+.tagline {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.3rem;
+    margin-top: 25px;
+    color: #d4a017;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
